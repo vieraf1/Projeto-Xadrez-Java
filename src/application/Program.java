@@ -18,8 +18,8 @@ public class Program {
   a b c d e f g h
 		 */
 		
-		//ChessMatch chessMatch = new ChessMatch();
-		//UI.printBoard(chessMatch.getPieces());
+		ChessMatch chessMatch = new ChessMatch();
+		UI.printBoard(chessMatch.getPieces());
 		
 		//ChessPosition chessPosition = new ChessPosition('a',1);
 		//chessPosition.toPosition();

@@ -13,9 +13,15 @@ public class Program {
 	public static void main(String[] args) {
 
 		/*
-		 * 8 - - - - - - - - 7 - - - - - - - - 6 - - - - - - - - 5 - - - - - - - - 4 - -
-		 * - - - - - - 3 - - - - - - - - 2 - - - - - - - - 1 - - - - - - - - a b c d e f
-		 * g h
+		 * 8 - - - - - - - - 
+		 * 7 - - - - - - - - 
+		 * 6 - - - - - - - - 
+		 * 5 - - - - - - - - 
+		 * 4 - - - - - - - - 
+		 * 3 - - - - - - - - 
+		 * 2 - - - - - - - - 
+		 * 1 - - - - - - - - 
+		 *   a b c d e f g h
 		 */
 		Scanner sc = new Scanner(System.in);
 		ChessMatch chessMatch = new ChessMatch();

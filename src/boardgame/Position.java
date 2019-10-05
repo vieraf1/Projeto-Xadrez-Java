@@ -29,5 +29,10 @@ public class Position {
 	public String toString() {
 		return row + ", " + column;
 	}
+	
+	public void setValeus(int row, int column) {
+		this.row = row;
+		this.column = column;
+	}
 
 }

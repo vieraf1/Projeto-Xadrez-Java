@@ -29,7 +29,7 @@ public class Program {
 		ChessMatch chessMatch = new ChessMatch();
 		List<ChessPiece> captured = new ArrayList<>();
 
-		while (true) {
+		while (!chessMatch.getCheckMate()) {
 			try {
 				UI.clearScreen();
 				UI.PrintMatch(chessMatch, captured);
@@ -59,14 +59,11 @@ public class Program {
 				sc.nextLine();
 			}
 		}
+		
+		UI.clearScreen();
+		UI.PrintMatch(chessMatch, captured);
 
-		// ChessPosition chessPosition = new ChessPosition('a',1);
-		// chessPosition.toPosition();
-
-		// System.out.println("coluna " + (char) ('a' + 0));
-		// System.out.println("linha " + (8 - 6));
-
-		// sc.close();
+		sc.close();
 	}
 
 }
